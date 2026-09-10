@@ -1,0 +1,39 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A10606"/>
+      <stop offset="1" stop-color="#560303"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg)"/>
+
+  <g opacity="0.25">
+    <path d="M0 0H260V260H0V0Z" fill="#7B0404"/>
+    <path d="M260 0H520V260H260V0Z" fill="#8E0505"/>
+    <path d="M520 0H780V260H520V0Z" fill="#7B0404"/>
+    <path d="M780 0H1040V260H780V0Z" fill="#8E0505"/>
+    <path d="M1040 0H1200V260H1040V0Z" fill="#7B0404"/>
+
+    <path d="M0 260H260V520H0V260Z" fill="#8E0505"/>
+    <path d="M260 260H520V520H260V260Z" fill="#7B0404"/>
+    <path d="M520 260H780V520H520V260Z" fill="#8E0505"/>
+    <path d="M780 260H1040V520H780V260Z" fill="#7B0404"/>
+    <path d="M1040 260H1200V520H1040V260Z" fill="#8E0505"/>
+
+    <path d="M0 520H260V700H0V520Z" fill="#7B0404"/>
+    <path d="M260 520H520V700H260V520Z" fill="#8E0505"/>
+    <path d="M520 520H780V700H520V520Z" fill="#7B0404"/>
+    <path d="M780 520H1040V700H780V520Z" fill="#8E0505"/>
+    <path d="M1040 520H1200V700H1040V520Z" fill="#7B0404"/>
+  </g>
+
+  <g>
+    <rect x="240" y="130" width="720" height="320" fill="#F8F8F8"/>
+    <rect x="255" y="145" width="690" height="290" fill="#F8F8F8"/>
+
+    <text x="600" y="335" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="290" font-weight="900" letter-spacing="-8" fill="#F5F5F5">IMPER</text>
+
+    <text x="600" y="545" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="800" letter-spacing="4" fill="#F5F5F5">UNIFORMES</text>
+  </g>
+</svg>
