@@ -1,0 +1,6 @@
+{
+  "name": "Imper Uniformes - Uniformes Corporativos Personalizados",
+  "description": "Site institucional e comercial da Imper Uniformes. Uniformes profissionais personalizados para empresas com qualidade, acabamento de alto padrão e pontualidade.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
