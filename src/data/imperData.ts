@@ -97,6 +97,19 @@ export const UNIFORM_SECTIONS = [
     ],
   },
   {
+    title: 'Camisa Polo Masculina',
+    images: [
+      '/uniformes1/camisapolomasculina1.jpeg',
+      '/uniformes1/camisapolomasculina2.jpeg',
+      '/uniformes1/camisapolomasculina3.jpeg',
+      '/uniformes1/camisapolomasculina4.jpeg',
+      '/uniformes1/camisapolomasculina5.jpeg',
+      '/uniformes1/camisapolomasculina6.jpeg',
+      '/uniformes1/camisapolomasculina7.jpeg',
+      '/uniformes1/camisapolomasculina8.jpeg',
+    ],
+  },
+  {
     title: 'Camisa Social Feminina',
     images: [
       '/uniformes/camisasocialfeminina.jpeg',
@@ -110,33 +123,6 @@ export const UNIFORM_SECTIONS = [
       '/uniformes/camisasocialmasculina.jpeg',
       '/uniformes/camisasocialmasculina1.jpeg',
       '/uniformes/camisasocialmasculina3.jpeg',
-    ],
-  },
-  {
-    title: 'Calça de Brim',
-    images: [
-      '/uniformes/calçabrim1.jpeg',
-      '/uniformes/calçabrim2.jpeg',
-      '/uniformes/calçabrim3.jpeg',
-      '/uniformes/calçabrim4.jpeg',
-      '/uniformes/caçlabrim5.jpeg',
-    ],
-  },
-  {
-    title: 'Bermuda de Brim',
-    images: [
-      '/uniformes/bermudabrim1.jpeg',
-      '/uniformes/bermudabrim2.jpeg',
-      '/uniformes/bermudabrim3.jpeg',
-      '/uniformes/bermudabrim4.jpeg',
-      '/uniformes/bermudabrim5.jpeg',
-    ],
-  },
-  {
-    title: 'Calça Jeans',
-    images: [
-      '/uniformes/calçajeansmasculina.jpeg',
-      '/uniformes/calçajeansmasculina1.jpeg',
     ],
   },
   {
@@ -169,13 +155,17 @@ export const UNIFORM_SECTIONS = [
     ],
   },
   {
-    title: 'Conjunto de Brim',
+    title: 'Calça Jeans',
     images: [
-      '/uniformes1/conjuntobrim1.jpeg',
-      '/uniformes1/conjuntobrim2.jpeg',
-      '/uniformes1/conjuntobrim3.jpeg',
-      '/uniformes1/conjuntobrim4.jpeg',
-      '/uniformes1/conjuntobrim5.jpeg',
+      '/uniformes/calçajeansmasculina.jpeg',
+      '/uniformes/calçajeansmasculina1.jpeg',
+    ],
+  },
+  {
+    title: 'Camisa de Malha com Refletivo',
+    images: [
+      '/uniformes1/camisademalhacomrefletivo1.jpeg',
+      '/uniformes1/camisademalhacomrefletivo2.jpeg',
     ],
   },
   {
@@ -188,27 +178,51 @@ export const UNIFORM_SECTIONS = [
     ],
   },
   {
-    title: 'Camisa de Malha com Refletivo',
+    title: 'Calça de Brim',
     images: [
-      '/uniformes1/camisademalhacomrefletivo1.jpeg',
-      '/uniformes1/camisademalhacomrefletivo2.jpeg',
+      '/uniformes/calçabrim1.jpeg',
+      '/uniformes/calçabrim2.jpeg',
+      '/uniformes/calçabrim3.jpeg',
+      '/uniformes/calçabrim4.jpeg',
+      '/uniformes/caçlabrim5.jpeg',
+    ],
+  },
+  {
+    title: 'Bermuda de Brim',
+    images: [
+      '/uniformes/bermudabrim1.jpeg',
+      '/uniformes/bermudabrim2.jpeg',
+      '/uniformes/bermudabrim3.jpeg',
+      '/uniformes/bermudabrim4.jpeg',
+      '/uniformes/bermudabrim5.jpeg',
+    ],
+  },
+  {
+    title: 'Conjunto de Brim',
+    images: [
+      '/uniformes1/conjuntobrim1.jpeg',
+      '/uniformes1/conjuntobrim2.jpeg',
+      '/uniformes1/conjuntobrim3.jpeg',
+      '/uniformes1/conjuntobrim4.jpeg',
+      '/uniformes1/conjuntobrim5.jpeg',
     ],
   },
 ];
 
 export const UNIFORM_CATEGORIES = [
   { name: 'Camisas Polo', image: UNIFORM_SECTIONS[0].images[0] },
-  { name: 'Camisas Sociais Femininas', image: UNIFORM_SECTIONS[1].images[0] },
-  { name: 'Camisas Sociais Masculinas', image: UNIFORM_SECTIONS[2].images[0] },
-  { name: 'Calças de Brim', image: UNIFORM_SECTIONS[3].images[0] },
-  { name: 'Bermudas de Brim', image: UNIFORM_SECTIONS[4].images[0] },
-  { name: 'Calças Jeans', image: UNIFORM_SECTIONS[5].images[0] },
-  { name: 'Calças Sociais', image: UNIFORM_SECTIONS[6].images[0] },
-  { name: 'Camisetas de Malha', image: UNIFORM_SECTIONS[7].images[0] },
-  { name: 'Camisas UV Dry Fit', image: UNIFORM_SECTIONS[8].images[0] },
-  { name: 'Conjuntos de Brim', image: UNIFORM_SECTIONS[9].images[0] },
-  { name: 'Moletons', image: UNIFORM_SECTIONS[10].images[0] },
-  { name: 'Camisas com Refletivo', image: UNIFORM_SECTIONS[11].images[0] },
+  { name: 'Camisas Polos Masculinas', image: UNIFORM_SECTIONS[1].images[0] },
+  { name: 'Camisas Sociais Femininas', image: UNIFORM_SECTIONS[2].images[0] },
+  { name: 'Camisas Sociais Masculinas', image: UNIFORM_SECTIONS[3].images[0] },
+  { name: 'Calças Sociais', image: UNIFORM_SECTIONS[4].images[0] },
+  { name: 'Camisetas de Malha', image: UNIFORM_SECTIONS[5].images[0] },
+  { name: 'Camisas UV Dry Fit', image: UNIFORM_SECTIONS[6].images[0] },
+  { name: 'Calças Jeans', image: UNIFORM_SECTIONS[7].images[0] },
+  { name: 'Camisas com Refletivo', image: UNIFORM_SECTIONS[8].images[0] },
+  { name: 'Moletons', image: UNIFORM_SECTIONS[9].images[0] },
+  { name: 'Calças de Brim', image: UNIFORM_SECTIONS[10].images[0] },
+  { name: 'Bermudas de Brim', image: UNIFORM_SECTIONS[11].images[0] },
+  { name: 'Conjuntos de Brim', image: UNIFORM_SECTIONS[12].images[0] },
 ];
 
 export const PRODUCTS: ProductItem[] = [

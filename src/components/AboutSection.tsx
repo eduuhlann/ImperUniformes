@@ -12,9 +12,9 @@ export const AboutSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <ScrollReveal direction="right" className="lg:col-span-5 relative">
             <div className="rounded-2xl border-2 border-red-200 dark:border-zinc-800 overflow-hidden shadow-xl bg-white dark:bg-zinc-900 p-4 sm:p-6">
-              <div className="w-full h-96 rounded-xl overflow-hidden">
+              <div className="w-full aspect-[3/4] rounded-xl overflow-hidden mt-2">
                 <img
-                  src="/equipe-imper.jpeg"
+                  src="/fotosessãosobre.jpeg"
                   alt="Equipe usando uniformes polo personalizados da Imper"
                   className="w-full h-full object-cover object-center"
                   loading="lazy"
