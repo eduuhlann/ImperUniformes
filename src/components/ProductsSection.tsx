@@ -48,7 +48,7 @@ export const ProductsSection: React.FC = () => {
 
           <ScrollReveal delay={0.2}>
             <p className="mt-3 text-sm sm:text-base sm:text-lg text-zinc-500 dark:text-zinc-400">
-              Polos, camisetas, sociais, brim, jalecos, coletes e muito mais — todos com personalização profissional.
+              Especialistas em uniformes corporativos personalizados
             </p>
           </ScrollReveal>
         </div>
