@@ -60,17 +60,14 @@ export const Hero: React.FC = () => {
               <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
                 <BadgeCheck className="w-4 h-4 text-red-600 hidden sm:inline-block" />
                 <span className="font-bold text-zinc-900 dark:text-white">A partir de 20 un</span>
-                <span className="text-[11px] hidden sm:inline">por modelo</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
                 <ShieldCheck className="w-4 h-4 text-red-600 hidden sm:inline-block" />
                 <span className="font-bold text-zinc-900 dark:text-white">Entrega ágil</span>
-                <span className="text-[11px] hidden sm:inline">prazo rigoroso</span>
               </div>
               <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
                 <Truck className="w-4 h-4 text-red-600 hidden sm:inline-block" />
                 <span className="font-bold text-zinc-900 dark:text-white">Envio para todo o Brasil</span>
-                <span className="text-[11px] hidden sm:inline">todo o Brasil</span>
               </div>
             </div>
           </motion.div>
@@ -86,7 +83,7 @@ export const Hero: React.FC = () => {
                 <img
                   src="/equipe-imper.jpeg"
                   alt="Equipe usando uniformes polo personalizados da Imper"
-                  className="w-full h-44 sm:h-[400px] lg:h-[480px] object-cover object-center rounded-xl"
+                  className="w-full aspect-[6/5] object-cover object-center rounded-xl"
                   loading="eager"
                 />
               </div>
