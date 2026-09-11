@@ -81,11 +81,11 @@ export const UNIFORM_SECTIONS = [
   {
     title: 'Camisa Polo Feminina',
     images: [
+      '/uniformes/camisapolobabylook5.jpeg',
       '/uniformes/camisapolobabylook1.jpeg',
       '/uniformes/camisapolobabylook2.jpeg',
       '/uniformes/camisapolobabylook3.jpeg',
       '/uniformes/camisapolobabylook4.jpeg',
-      '/uniformes/camisapolobabylook5.jpeg',
       '/uniformes/camisapolobabylook6.jpeg',
       '/uniformes/camisapolobabylook7.jpeg',
       '/uniformes/camisapolobabylook8.jpeg',
@@ -539,7 +539,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
     name: 'Carlos Henrique Albuquerque',
     role: 'Gerente de Operações',
     company: 'Construtora & Engenharia RJ',
-    content: 'A Imper entregou 120 jalecos e calças de brim dentro do prazo estipulado. O tecido aguentou perfeitamente as exigências pesadas da obra, e o bordado com a nossa logo ficou impecável. Já é o terceiro pedido que fechamos.',
+    content: 'Fizemos nossas polos com a Imper e ficamos muito satisfeitos! O atendimento foi rápido, o pessoal super atencioso e a qualidade das peças realmente é muito boa. Entregaram no prazo certinho, como combinado. Já estamos planejando o próximo pedido.',
     verified: true,
   },
   {
@@ -547,7 +547,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
     name: 'Mariana Duarte',
     role: 'Coordenação de Governança & RH',
     company: 'Rio Flat Apart Hotel',
-    content: 'Precisávamos padronizar recepção e governança com rapidez e elegância. As polos piquet femininas e masculinas vestem muito bem, têm caimento nobre e não desbotam com as lavagens diárias. O atendimento pelo WhatsApp foi direto e muito transparente.',
+    content: 'Uniformes de ótima qualidade! Fizemos camisetas e jalecos personalizados para nossa equipe e todo mundo elogiou. O tecido é muito bom e o bordado ficou perfeito. O atendimento pelo WhatsApp também foi super prático.',
     verified: true,
   },
   {
@@ -555,7 +555,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
     name: 'Roberto Valadares',
     role: 'Diretor de Logística',
     company: 'Guerreiros do Trecho Transportes',
-    content: 'Uniformes com faixas refletivas e camisas de proteção solar para nossa equipe de estrada. A qualidade do tecido técnico e a pontualidade na entrega foram decisivos para renovarmos toda a frota com a Imper.',
+    content: 'Já é o terceiro pedido que fazemos com a Imper e sempre dá tudo certo. Boa qualidade, entrega no prazo e um atendimento que realmente resolve. É bom ter um fornecedor que a gente pode confiar.',
     verified: true,
   },
 ];
