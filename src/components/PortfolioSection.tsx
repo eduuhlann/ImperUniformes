@@ -53,7 +53,7 @@ export const PortfolioSection: React.FC = () => {
 
           <ScrollReveal delay={0.1}>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-zinc-900 dark:text-white tracking-tight">
-              Uniformes Que Já Ganharam Vida Por Aqui
+              Uniformes que já ganharam vida por aqui
             </h2>
           </ScrollReveal>
         </div>
